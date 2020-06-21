@@ -1,0 +1,413 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Quicksand:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Italianno&display=swap" rel="stylesheet">
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v7.0"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Tera&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Metal+Mania&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/loader-2.css">
+    <title>
+        🎓Nayan's class</title>
+
+  </head>  
+  <style>
+      .header_content{
+         text-decoration: solid;
+       font-family: 'Quicksand', sans-serif;
+        font-weight: bold;
+        font-size:100px;
+     }
+     .header_content2{
+         text-decoration: solid;
+       font-family: 'Quicksand', sans-serif;
+        font-weight: bold;
+        font-size:50px;
+     }
+     .texting{
+        font-family: 'Quicksand', sans-serif;
+        font-size: 29px;
+     }
+      #img{
+         width: 100px;
+         height: 100px;
+         object-fit: contain;
+     }
+     .cursive{
+       font-family: 'Italianno', cursive;
+       font-size: 30px;
+     }
+
+     .card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+}
+
+.title {
+  color: grey;
+  font-size: 18px;
+}
+#but{
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color:red;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+button:hover{
+  opacity: 0.7;
+}
+
+
+h1{
+  background-color:#D3D3D3;
+}
+dropdown:hover{
+  background-color: red;
+
+}
+.buto{
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color:red;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+.responsive{
+height:auto;
+max-width:100%;
+
+}
+ .card-footer{
+          background-color: #DC143C;
+      }
+      .imagetext{
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.searchimg{
+border-radius: 50%;
+}
+.avatar {
+  vertical-align: middle;
+  width: 90px;
+  height: 100px;
+  border-radius: 66%;
+}
+.foot{
+    background-color: #4A53D9;
+}
+ .fishes
+    {
+      position: relative;
+      top: 0;
+      left: 0;
+    }
+    .fish
+    {
+      position: absolute;
+      top: 79px;
+      left: 15px;
+    }
+    .fisher
+    {
+      position: absolute;
+      top: 200px;
+      right: 60px;
+    }
+    .re{
+    font-family: 'Lexend Tera', sans-serif;
+}
+.size{
+background-position:center;
+background-size: 300px 100px,
+}
+.mapouter{
+position:relative;
+text-align:right;
+height:500px;
+width:600px;}
+.gmap_canvas{
+overflow:hidden;
+background:none!important;
+height:500px;
+width:600px;
+}
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+.btn1{
+background-color:#FF0000;
+}
+.div1 {
+  width: 300px;
+  height: 100px;
+  border: 1px solid gray;
+  box-sizing: border-box;
+  border-radius:15px;
+}
+
+.content {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.round{
+  vertical-align: middle;
+  width: 90px;
+  height: 100px;
+  border-radius: 66%;
+}
+
+  </style>
+  <body>
+    <nav class="navbar navbar-expand-sm navbar-light">
+        <a class="navbar-brand" href="#">
+            <img src="https://img.icons8.com/nolan/64/sigma.png"  width="40" height="40" alt="" loading="lazy"/>
+            <a href="https://icons8.com/icon/53004/sigma"></a>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+    
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="/home/news">Home <span class="sr-only">(current)</span></a>
+            </li>
+            
+          </ul>
+          
+        </div>
+      </nav>  
+   
+   
+   
+   <div id="demo" class="carousel slide" data-ride="carousel">
+
+            <!-- Indicators -->
+            <ul class="carousel-indicators">
+              <li data-target="#demo" data-slide-to="0" class="active"></li>
+              <li data-target="#demo" data-slide-to="1"></li>
+              <li data-target="#demo" data-slide-to="2"></li>
+            </ul>
+
+            <!-- The slideshow -->
+            <div class="carousel-inner"><div class="carousel-item active">
+                <img src='https://source.unsplash.com/1600x900/?Exam,maths' class="responsive" alt="Los Angeles" width="1600" height="600">
+
+              </div>
+              <div class="carousel-item">
+                <img src='https://source.unsplash.com/1600x900/?Physics' class="responsive" alt="Chicago"  width="1600" height="600">
+
+              </div>
+              <div class="carousel-item">
+                <img src='https://source.unsplash.com/1600x900/?Computer,Coding' class="responsive" alt="New York"  width="1600" height="600">
+              </div>
+              <div class="carousel-item">
+                <img src='https://source.unsplash.com/1600x900/?galaxy,stars' class="responsive" alt="Los Angeles" width="1600" height="600">
+
+              </div>
+              <div class="carousel-item">
+                <img src='https://source.unsplash.com/1600x900/?Computer'  class="responsive" alt="Los Angeles" width="1600" height="600">
+
+              </div>
+            </div>
+
+            <!-- Left and right controls -->
+            <a class="carousel-control-prev" href="#demo" data-slide="prev">
+              <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#demo" data-slide="next">
+              <span class="carousel-control-next-icon"></span>
+            </a>
+
+          </div>
+        <section>
+            <div class="row mt-2">
+                <div class="col-md-12 col-lg-12">
+                    <h5 class="text-center text-capitalize header_content text-muted">About us !<hr></h5>
+
+                </div>
+            </div>
+            <div class="container">
+
+            <div class="row">
+                <div class="col-md-6 col-lg-6">
+
+                    <img src="nayan.jpg"  class="responsive shadow-lg">
+
+                </div>
+                <div class="col-md-6 col-lg-6 mt-2">
+                    <p  id="texting" class="title">
+               Social media is a tool that is becoming quite popular these days because of its user-friendly features. Social media platforms like Facebook, Instagram, Twitter and more are giving people a chance to connect with each other across distances. In other words, the whole world is at our fingertips all thanks to social media. The youth is especially one of the most dominant users of social media. All this makes you wonder that something so powerful and with such a massive reach cannot be all good. Like how there are always two sides to a coin, the same goes for social media. Subsequently, different people have different opinions on this debatable topic. So, in this essay on Social Media, we will see the advantages and disadvantages of social media.
+               </p>
+
+                </div>
+                <div class="col-md-12 col-lg-12">
+                    <h5 class="text-center text-capitalize header_content text-muted"> Our Stars !
+                        <hr>
+                    </h5>
+
+                </div>
+              <div class="col-md-6 lg-6 mt-4">
+                  <img src="abhinav.jpg" class="responsive avatar"/>
+                  <p class="title text-dark"><strong>Abhinav Kumar</strong></p>
+                  <p class="title">I.S.C 2019 : 92 %</p>
+              </div>
+              <div class="col-md-6 lg-6 mt-4">
+                <img src="malika.jpg" class="responsive avatar"/>
+                <p class="title text-dark"><strong>Malaika Shukla</strong></p>
+                <p class="title">I.C.S.E 2019 : 97 %</p>
+            </div>
+            <div class="col-md-6 lg-6 mt-4">
+                <img src="gaurav.jpg" class="responsive avatar"/>
+                <p class="title text-dark"><strong>Gaurav Kesarwani</strong></p>
+                <p class="title">I.S.C 2019 : 89 %</p>
+            </div>
+            <div class="col-md-6 lg-6 mt-4">
+                <img src="gaurav.jpg" class="responsive avatar"/>
+                <p class="title text-dark"><strong>Abhinav Kumar</strong></p>
+                <p class="title">I.S.C 2019 : 89 %</p>
+            </div>
+
+
+
+
+                <div class="col-md-12 col-lg-12 mt-4"><hr>
+
+                            <div class="map-responsive">
+                                <iframe width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=Allahabad%2CBeniganj&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" style="border:0" allowfullscreen>
+
+                                </iframe>
+                                <a href="https://www.embedgooglemap.org"></a>
+                            </div>
+
+                    </div>
+
+
+                    <div class="col-md-12 col-lg-12 mt-4">
+                        <h3 class="title">Contact us </h3>
+                        <p class="title text-muted">We generally reply in two days..😄</p>
+                        <form>
+                            <div class="form-row">
+                              <div class="form-group col-md-6">
+                                <label for="inputEmail4">Name</label>
+                                <input type="email" class="form-control" id="inputEmail4" placeholder="Enter Your Name">
+                              </div>
+                              <div class="form-group col-md-6">
+                                <label for="inputPassword4">Phone no.</label>
+                                <input type="password" class="form-control" id="inputPassword4" placeholder="Enter Your Phone no.">
+                              </div>
+                            </div>
+                            <div class="form-row">
+                              <div class="form-group col-md-6">
+                                <label for="inputCity">City</label>
+                                <input type="text" class="form-control" id="inputCity">
+                              </div>
+                              <div class="form-group col-md-2">
+                                <label for="inputZip">Zip</label>
+                                <input type="text" class="form-control" id="inputZip">
+                              </div>
+                            </div>
+                            <div class="form-group">
+                              <div class="form-check">
+                                <input class="form-check-input" type="checkbox" id="gridCheck">
+                                <label class="form-check-label" for="gridCheck">
+                                  Check me out
+                                </label>
+                              </div>
+                            </div>
+                            <button type="submit" class="btn foot title text-light">Done</button>
+                          </form>
+
+
+
+
+            </div>
+
+                <div class="row">
+                     <div class="col-md-6 col-lg-6 mt-4">
+                    <h6 class="header_content2 mt-2">Thanks!</h6>
+                </div>
+                <div class="col-md-6 col-lg-6 mt-2 mx-2">
+                   <img src="https://scontent.fvns1-1.fna.fbcdn.net/v/t1.0-9/61359357_1033278503544106_695081529906298880_o.jpg?_nc_cat=108&_nc_sid=09cbfe&_nc_ohc=VuuXIfM35oEAX9-HSZ8&_nc_ht=scontent.fvns1-1.fna&oh=40094e630cdb45826bd3c3b5592b3ea0&oe=5F15D834" class="resonsive avatar"/>
+
+                </div>
+
+                </div>
+            </div>
+            </div>
+        </section>
+
+             <div class="mt-4">
+             <a href="https://www.instagram.com/yashu.162/?hl=en">
+                <img src="https://img.icons8.com/fluent/48/000000/instagram-new.png"/>
+             </a>
+            <a href="https://icons8.com/icon/Xy10Jcu1L2Su/instagram"></a>
+                <a href="#">
+            <img src="https://img.icons8.com/fluent/48/000000/twitter.png" class="mx-2"/>
+                </a>
+            <a href="https://icons8.com/icon/5MQ0gPAYYx7a/twitter"></a>
+                <a href="https://www.facebook.com/nayan.jain.75457">
+            <img src="https://img.icons8.com/fluent/48/000000/facebook-new.png" class="mx-2"/>
+                </a>
+            <a href="https://icons8.com/icon/uLWV5A9vXIPu/facebook"></a>
+                <a href="">
+            <img src="https://img.icons8.com/fluent/48/000000/youtube-play.png" class="mx-2"/>
+                </a>
+            <a href="https://icons8.com/icon/9a46bTk3awwI/play-button"></a>
+             </div>
+
+             <div class="pt-5 mt-5">
+                <!-- Footer -->
+        <footer class="page-footer font-small foot">
+        
+          <!-- Copyright -->
+          <div class="footer-copyright text-center py-3">© 2020 Copyright:
+            <a href="https://www.instagram.com/yashu.162/?hl=en" class="text-light">Coded by- Yash Sinha</a>
+          </div>
+          <!-- Copyright -->
+        
+        </footer>
+        </div>
+         <!-- Optional JavaScript -->
+            <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+            <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+            <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+          </body>
+        
