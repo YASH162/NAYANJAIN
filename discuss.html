@@ -1,0 +1,331 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Quicksand:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Italianno&display=swap" rel="stylesheet">
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v7.0"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Tera&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Metal+Mania&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/loader-2.css">
+    <title>
+        🎓Nayan's class / Discussion</title>
+
+  </head>  
+  <style>
+      .header_content{
+         text-decoration: solid;
+       font-family: 'Quicksand', sans-serif;
+        font-weight: bold;
+        font-size:100px;
+     }
+     .header_content2{
+         text-decoration: solid;
+       font-family: 'Quicksand', sans-serif;
+        font-weight: bold;
+        font-size:50px;
+     }
+     .texting{
+        font-family: 'Quicksand', sans-serif;
+        font-size: 29px;
+     }
+      #img{
+         width: 100px;
+         height: 100px;
+         object-fit: contain;
+     }
+     .cursive{
+       font-family: 'Italianno', cursive;
+       font-size: 30px;
+     }
+
+     .card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+}
+
+.title {
+  color: grey;
+  font-size: 18px;
+}
+#but{
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color:red;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+button:hover{
+  opacity: 0.7;
+}
+
+
+dropdown:hover{
+  background-color: red;
+
+}
+.buto{
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color:red;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+.responsive{
+height:auto;
+max-width:100%;
+
+}
+ .card-footer{
+          background-color: #DC143C;
+      }
+      .imagetext{
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.searchimg{
+border-radius: 50%;
+}
+.avatar {
+  vertical-align: middle;
+  width: 90px;
+  height: 100px;
+  border-radius: 66%;
+}
+.foot{
+    background-color: #4A53D9;
+}
+ .fishes
+    {
+      position: relative;
+      top: 0;
+      left: 0;
+    }
+    .fish
+    {
+      position: absolute;
+      top: 79px;
+      left: 15px;
+    }
+    .fisher
+    {
+      position: absolute;
+      top: 200px;
+      right: 60px;
+    }
+    .re{
+    font-family: 'Lexend Tera', sans-serif;
+}
+.size{
+background-position:center;
+background-size: 300px 100px,
+}
+.mapouter{
+position:relative;
+text-align:right;
+height:500px;
+width:600px;}
+.gmap_canvas{
+overflow:hidden;
+background:none!important;
+height:500px;
+width:600px;
+}
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+.btn1{
+background-color:#FF0000;
+}
+.div1 {
+  width: 300px;
+  height: 100px;
+  border: 1px solid gray;
+  box-sizing: border-box;
+  border-radius:15px;
+}
+
+.content {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.round{
+  vertical-align: middle;
+  width: 90px;
+  height: 100px;
+  border-radius: 66%;
+}
+.container1 {
+  position: relative;
+  width: 100%;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.container1:hover .image {
+  opacity: 0.3;
+}
+
+.container1:hover .middle {
+  opacity: 1;
+}
+
+.text {
+ 
+  color: white;
+  font-size: 80px;
+  padding: 16px 32px;
+}
+.con {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+/* Bottom left text */
+.bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+}
+.mb-30{
+  margin-bottom: 30px;
+}
+
+.mt-90{
+  margin-top: 90px;
+}
+
+ 
+
+  </style>
+  <body>
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v7.0&appId=368522910801570&autoLogAppEvents=1" nonce="gCigTn7j"></script>
+    <nav class="navbar navbar-expand-sm navbar-light navbar-fixed-top">
+        <a class="navbar-brand" href="#">
+            <img src="https://img.icons8.com/nolan/64/sigma.png"  width="40" height="40" alt="" loading="lazy"/>
+            <a href="https://icons8.com/icon/53004/sigma"></a>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+    
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item nav-item-active" >
+              <a class="nav-link" href="exam.html">Online Examination<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item nav-item-active" >
+              <a class="nav-link" href="discuss.html">Discussion<span class="sr-only">(current)</span></a>
+            </li>
+            
+          </ul>
+          
+        </div>
+      </nav>  
+   <div>
+     
+<center><img src='nay.png'  class="responsive  mb-30" alt="Los Angeles" width="800px" height="500px"></center>
+   </div>
+   <center>
+       <img src="comp.png" class="responsive  mt-2" width="500px" height="500px">
+   </center>
+   <div class="container mt-4">
+  <center><div class="header_content text-muted">Our Keys</div></center><hr>
+   </div>
+  
+   <div class="mt-4">
+    <img src="pen.png" class="responsive" width="600px" height="1000px">
+     <img src="book.png" class="responsive" width="600px" height="1000px">
+     <img src="compass.png" class="responsive" width="600px" height="1000px">
+     <img src="search.png" class="responsive" width="600px" height="1000px">
+     
+   </div>
+   <hr class="mt-4">
+   <div class="container mt-4">
+    <center> <img src="nayan.png" class="responsive" width="800px" height="1000px"></center>
+   </div>
+   <div class="container">
+     <div class="title mt-4" style="float:right">
+   "Hello Students , You can ask any question regarding your studies and carrier
+     it is associated to any question in which you are stucked in 
+    because we think that practice and raising question wherever you feel that you are not able to solve any question just ask here 
+  Students will help each other and our faculty too"</div>
+   </div>
+   <div class="header_content2 text-muted mb-30 mt-4 mx-2">
+     Ask your Doubts :
+   </div>
+   <div class="fb-comments mt-4" data-href="http://127.0.0.1:5500/discuss.html" data-numposts="5" data-width=""></div>
+   <div class="pt-5 mt-5">
+    <!-- Footer -->
+  <footer class="page-footer font-small foot">
+  
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-3">© 2020 Copyright:
+  <a href="https://www.instagram.com/yashu.162/?hl=en" class="text-light">Yash Sinha</a>
+  </div>
+  <!-- Copyright -->
+  
+  </footer>
+  </div>
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+  
+  </body>
+  </html>
